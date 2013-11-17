@@ -9,10 +9,10 @@ setup(
     author='Brad Montgomery',
     author_email='brad@bradmontgomery.net',
     url='https://github.com/bradmontgomery/django-commen5/',
-    license='BSD',
+    license='MIT',
     packages=['commen5'],
     include_package_data=True,
-    package_data = { '': ['README.rst'] },
+    package_data={'': ['README.rst']},
     zip_safe=False,
     install_requires=['django', ],
     classifiers=[
@@ -20,9 +20,10 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Text Processing :: Markup :: HTML',
+        'Intended Audience :: Developers',
     ]
 )
